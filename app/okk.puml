@@ -1,0 +1,72 @@
+@startuml
+class firstgradle.PocTypes.Attacks.BubbleBeam {
+# void applyOppEffects(Pokemon)
+# String describe()
+}
+class firstgradle.PocTypes.Attacks.Growl {
+# void applyOppEffects(Pokemon)
+# String describe()
+}
+class firstgradle.PocTypes.Attacks.DoubleTeam {
+# void applyOppEffects(Pokemon)
+# String describe()
+}
+class firstgradle.PocTypes.Spearow {
+}
+class firstgradle.Source {
++ {static} void main(String[])
+}
+class firstgradle.PocTypes.Attacks.DrillRun {
+# String describe()
+}
+class firstgradle.PocTypes.Attacks.SwordDance {
+# void applySelfEffects(Pokemon)
+# String describe()
+}
+class firstgradle.PocTypes.Lotad {
+}
+class firstgradle.PocTypes.Lugia {
+}
+class firstgradle.PocTypes.Attacks.Swagger {
+# void applyOppEffects(Pokemon)
+# String describe()
+}
+class firstgradle.PocTypes.Ludicolo {
+}
+class firstgradle.PocTypes.Attacks.Facade {
+# String describe()
+}
+class firstgradle.PocTypes.Attacks.Peck {
+# String describe()
+}
+class firstgradle.PocTypes.Attacks.WorkUp {
+# void applySelfEffects(Pokemon)
+# String describe()
+}
+class firstgradle.PocTypes.Attacks.DragonRush {
+# void applyOppEffects(Pokemon)
+# String describe()
+}
+class firstgradle.PocTypes.Fearow {
+}
+class firstgradle.PocTypes.Lombre {
+}
+
+
+firstgradle.PocTypes.Attacks.SpecialMove <|-- firstgradle.PocTypes.Attacks.BubbleBeam
+firstgradle.PocTypes.Attacks.StatusMove <|-- firstgradle.PocTypes.Attacks.Growl
+firstgradle.PocTypes.Attacks.StatusMove <|-- firstgradle.PocTypes.Attacks.DoubleTeam
+firstgradle.PocTypes.Pokemon <|-- firstgradle.PocTypes.Spearow
+firstgradle.PocTypes.Attacks.PhysicalMove <|-- firstgradle.PocTypes.Attacks.DrillRun
+firstgradle.PocTypes.Attacks.StatusMove <|-- firstgradle.PocTypes.Attacks.SwordDance
+firstgradle.PocTypes.Pokemon <|-- firstgradle.PocTypes.Lotad
+firstgradle.PocTypes.Pokemon <|-- firstgradle.PocTypes.Lugia
+firstgradle.PocTypes.Attacks.StatusMove <|-- firstgradle.PocTypes.Attacks.Swagger
+firstgradle.PocTypes.Pokemon <|-- firstgradle.PocTypes.Ludicolo
+firstgradle.PocTypes.Attacks.PhysicalMove <|-- firstgradle.PocTypes.Attacks.Facade
+firstgradle.PocTypes.Attacks.PhysicalMove <|-- firstgradle.PocTypes.Attacks.Peck
+firstgradle.PocTypes.Attacks.StatusMove <|-- firstgradle.PocTypes.Attacks.WorkUp
+firstgradle.PocTypes.Attacks.PhysicalMove <|-- firstgradle.PocTypes.Attacks.DragonRush
+firstgradle.PocTypes.Pokemon <|-- firstgradle.PocTypes.Fearow
+firstgradle.PocTypes.Pokemon <|-- firstgradle.PocTypes.Lombre
+@enduml
