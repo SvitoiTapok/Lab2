@@ -6,7 +6,7 @@ public class DoubleTeam extends StatusMove{
         super(Type.NORMAL,0,100,15,1);
     }
     @Override
-    protected void applyOppEffects(Pokemon p){
+    protected void applySelfEffects(Pokemon p){
         p.setMod(Stat.EVASION, 1);
     }
     @Override
